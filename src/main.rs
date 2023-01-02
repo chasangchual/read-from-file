@@ -29,3 +29,28 @@ fn main() {
         _line.truncate(0);
     }
 }
+
+/*
+➜  read-from-file git:(main) ✗ cargo run -- --file Cargo.toml
+   Compiling read-from-file v0.1.0 (/Users/chasc/workspace/rust/read-from-file)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.50s
+     Running `target/debug/read-from-file --file Cargo.toml`
+[package]
+ (10 bytes long)
+name = "read-from-file"
+ (24 bytes long)
+version = "0.1.0"
+ (18 bytes long)
+edition = "2021"
+ (17 bytes long)
+
+ (1 bytes long)
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+ (97 bytes long)
+
+ (1 bytes long)
+[dependencies]
+ (15 bytes long)
+clap = "4" (10 bytes long)
+
+ */
